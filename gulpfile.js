@@ -23,14 +23,6 @@ gulp.task('scss', function(){
     .pipe(browserSync.reload({stream: true}))
 });
 
-gulp.task('css', function(){
-  return gulp.src([
-    'node_modules/swiper/swiper-bundle.css'
-  ])
-    .pipe(concat('_libs.scss'))
-    .pipe(gulp.dest('app/scss'))
-    .pipe(browserSync.reload({stream: true}))
-});
 
 gulp.task('html', function(){
   return gulp.src('app/*.html')
@@ -40,16 +32,6 @@ gulp.task('html', function(){
 gulp.task('script', function(){
   return gulp.src('app/js/*.js')
   .pipe(browserSync.reload({stream: true}))
-});
-
-gulp.task('js', function(){
-  return gulp.src([
-    'node_modules/swiper/swiper-bundle.js'
-  ])
-    .pipe(concat('libs.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('app/js'))
-    .pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task('browser-sync', function() {
@@ -85,4 +67,4 @@ gulp.task('watch', function(){
 
 gulp.task('build', gulp.series('clean', 'export'))
 
-gulp.task('default', gulp.parallel('css' ,'scss', 'js', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('scss', 'browser-sync', 'watch'));
