@@ -861,8 +861,10 @@
   font-weight: 700;
 }
 .interior-style__item{
-  width: 375px;
-  height: 375px;
+  max-width: 375px;
+  width: 100%;
+  max-height: 375px;
+  height: 100%;
   padding: 40px;
   display: flex;
   justify-content: center;
