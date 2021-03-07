@@ -1,10 +1,13 @@
 html{
   box-sizing: border-box;
 }
-html,
+
 body{
-  position: relative;
-  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
 }
 *,
 *::before,
@@ -14,10 +17,30 @@ body{
 a{
   display: inline-block;
   color: inherit;
+  text-decoration: none;
 }
 ul,
 li{
   margin: 0;
   padding: 0;
   list-style: none;
+  cursor: context-menu;
+}
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container{
+  max-width: 1170px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.articles,
+.benefits,
+.advantages,
+.about,
+.premises,
+.interior-style{
+  margin-bottom: 50px;
 }

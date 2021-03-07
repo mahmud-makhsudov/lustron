@@ -25,7 +25,7 @@ gulp.task('scss', function(){
 
 gulp.task('css', function(){
   return gulp.src([
-    'node_modules/swiper/swiper.min.css'
+    'node_modules/swiper/swiper-bundle.css'
   ])
     .pipe(concat('_libs.scss'))
     .pipe(gulp.dest('app/scss'))

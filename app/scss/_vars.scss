@@ -1,0 +1,10 @@
+$blue: #1F78C7;
+
+@mixin f100 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+@mixin f700 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}

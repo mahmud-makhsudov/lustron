@@ -1,16 +1,1204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.min.css" />
 </head>
+
 <body>
-  
-  
+  <header class="header">
+    <div class="header__inner-wrapper">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__col">
+            <button class="header__location">Душанбе</button>
+            <a href="#" class="header__logo">
+              <img src="img/logo.png">
+            </a>
+          </div>
+          <div class="header__content">
+            <nav class="header__nav">
+              <div class="header-burger">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <ul class="header__nav-list">
+                <li class="header__item">
+                  <a href="#" class="header__item-link">О компании</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__item-link">Оплата и доставка</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__item-link">Оптовикам</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__item-link">Сборка и установка</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__item-link">Гарантия</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__item-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__content-bottom">
+              <div class="header__content-contacts contacts">
+                <a href="tel:84956498316" class="contacts-phone">8 (495) 649-83-16<span> — Москва и
+                    МО</span></a>
+                <a href="tel:84956498316" class="contacts-phone">8 (800) 500-22-97 <span> — Бесплатно по
+                    России</span></a>
+                <div class="contacts-schedule">
+                  Пн-Вс: 08:00-22:00<a href="#" class="contacts-link">Обратный звонок</a>
+                </div>
+              </div>
+              <div class="header__right-content--mobile">
+                <a href="#" class="header__right-link">Бесплатная доставка
+                </a>
+                по при заказе от 20 000 ₽
+              </div>
+              <div class="header__content-search header-search">
+                <div class="header-search__btn">
+                  <input type="text" placeholder="Поиск по сайту" /><button
+                    class="header-search__icon icon-search"></button>
+                </div>
+                <a href="#" class="header__content-options">Подобрать по параметрам</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__right">
+            <div class="header__right-buttons">
+              <a href="#" class="header__right-btn header__right-comparison">Сравнение</a>
+              <a href="#" class="header__right-btn header__right-favorite">Избранное</a>
+            </div>
+            <div class="header__right-wrapper">
+              <div class="header__right-content">
+                <a href="#" class="header__right-link">Бесплатная доставка
+                </a>
+                по при заказе от 20 000 ₽
+              </div>
+              <a href="#" class="header__right-basket">Корзина</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom-inner">
+          <div class="header__bottom-catalog">
+            <a href="#">Каталог товаров</a>
+            <div class="catalog-menu__wrapper">
+              <div class="catalog-menu">
+                <li class="catalog-menu__line catalog-menu__line--1">
+                  <a class="catalog-menu__line-link" href="#">Люстры</a>
+                  <div class="menu-content menu-content--1">
+                    <ul class="menu-content__links">
+                      <li class="menu-content__link">
+                        <a href="#">Все люстры</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Подвесные</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Потолочные</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Большие</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Маленькие</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Лифты</a>
+                      </li>
+                    </ul>
+                    <div class="menu-content__items">
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--2">
+                  <a class="catalog-menu__line-link" href="#">Настенные</a>
+                  <div class="menu-content menu-content--2">
+                    <ul class="menu-content__links">
+                      <li class="menu-content__link">
+                        <a href="#">Все люстры</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Подвесные</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Потолочные</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Большие</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Маленькие</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Лифты</a>
+                      </li>
+                    </ul>
+                    <div class="menu-content__items">
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--3">
+                  <a class="catalog-menu__line-link" href="#">Настольные лампы</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--4">
+                  <a class="catalog-menu__line-link" href="#">Торшеры</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--5">
+                  <a class="catalog-menu__line-link" href="#">Потолочные</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--6">
+                  <a class="catalog-menu__line-link" href="#">Подвесные</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--7">
+                  <a class="catalog-menu__line-link" href="#">Споты, трековые, точечные</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--8">
+                  <a class="catalog-menu__line-link" href="#">Уличные</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--9">
+                  <a class="catalog-menu__line-link" href="#">Распродажа</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--10">
+                  <a class="catalog-menu__line-link" href="#">По назначению</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--11">
+                  <a class="catalog-menu__line-link" href="#">Обои</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--12">
+                  <a class="catalog-menu__line-link" href="#">Аксессуары и декор</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--13">
+                  <a class="catalog-menu__line-link" href="#">Системы обогрева</a>
+                </li>
+                <li class="catalog-menu__line catalog-menu__line--14">
+                  <a class="catalog-menu__line-link" href="#">Бренды</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="header__bottom-wrapper">
+            <div class="header-slider">
+              <ul class="header__bottom-slider header-slider__wrapper">
+                <li class="header-slider__item header-slider__chandelier">
+                  <a href="#">Люстры</a>
+                  <div class="menu-content chandelier-box">
+                    <ul class="menu-content__links">
+                      <li class="menu-content__link">
+                        <a href="#">Все люстры</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Подвесные</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Потолочные</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Большие</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Маленькие</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Лифты</a>
+                      </li>
+                    </ul>
+                    <div class="menu-content__items">
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="header-slider__item header-slider__wall">
+                  <a href="#">Настенные</a>
+                  <div class="menu-content wall-box">
+                    <ul class="menu-content__links">
+                      <li class="menu-content__link">
+                        <a href="#">Все люстры</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Подвесные</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Потолочные</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Большие</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Маленькие</a>
+                      </li>
+                      <li class="menu-content__link">
+                        <a href="#">Лифты</a>
+                      </li>
+                    </ul>
+                    <div class="menu-content__items">
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="menu-content__item">
+                        <div class="menu-content__item-title">НАЗНАЧЕНИЕ</div>
+                        <ul class="menu-content__subitems">
+                          <li class="menu-content__subitem">
+                            <a href="#">Для натяжных потолков</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">Светодиодные</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С вентилятором</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С диммером</a>
+                          </li>
+                          <li class="menu-content__subitem">
+                            <a href="#">С пультом</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="header-slider__item">
+                  <a href="#">Потолочные</a>
+                </li>
+                <li class="header-slider__item"><a href="#">Подвесные</a></li>
+                <li class="header-slider__item">
+                  <a href="#">Настольные</a>
+                </li>
+                <li class="header-slider__item"><a href="#">Торшеры</a></li>
+                <li class="header-slider__item">
+                  <a href="#">Споты, точечные, трековые</a>
+                </li>
+                <li class="header-slider__item"><a href="#">Уличные</a></li>
+              </ul>
+            </div>
+            <div class="header__content-search header-search--mobile">
+              <div class="header-search__btn">
+                <input type="text" placeholder="Поиск по сайту" /><button
+                  class="header-search__icon icon-search"></button>
+              </div>
+            </div>
+            <div class="header__bottom-sales">
+              <a href="#" class="header__bottom-icon header__comparison"></a>
+              <a href="#" class="header__bottom-icon header__favorite"></a>
+              <a href="#" class="header__bottom-icon header__basket"></a>
+              <a href="#" class="sales">АКЦИИ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="news">
+    <div class="container">
+      <div class="news__inner">
+        <div class="news__slider">
+          <a class="news__slider-item">
+            <img src="img/item1.jpg">
+          </a>
+        </div>
+        <div class="news__items">
+          <a href="#" class="news__item news__item-delivery" style="background-image: url(img/item3.jpg)">
+            <div class="news__item-title">
+              Выгодная доставка по всем городам в России
+            </div>
+            <span>Подробнее</span>
+          </a>
+          <a href="#" class="news__item" style="background-image: url(img/item1.jpg)">
+            <div class="news__item-title">Lorem ipsum dolor sit amet.</div>
+            <div class="news__text">Lorem ipsum dolor</div>
+          </a>
+          <a href="#" class="news__item" style="background-image: url(img/item2.jpg)">
+            <div class="news__item-title">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+            <div class="news__text">Lorem ipsum dolor sit amet.</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="popular-items">
+    <div class="container">
+      <div class="popular-items__title title">Популярные товары</div>
+      <div class="popular-items__slider">
+        <a href="#" class="section__line new">
+          <div class="section__line-wrapper">
+            <div class="item-status__wrapper">
+              <div class="item-status item-status__new">NEW</div>
+              <div class="item-status item-status__led">LED</div>
+            </div>
+            <div class="section__line-img">
+              <img src="img/product.jpg" />
+            </div>
+            <div class="section__line-title">
+              Настенный светильник хрустальный Traditional TR5091
+            </div>
+            <div class="section__line-pricebox">
+              <div class="section__line-price">3 756 ₽</div>
+            </div>
+            <div class="section__line-bottom">
+              <button class="section__line-bottom-btn">В карзину</button>
+              <div class="add-btn">
+                <button class="add-btnTo icon-stats-bars"></button>
+                <button class="add-btnTo icon-heart"></button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="popular-categories">
+    <div class="container">
+      <div class="popular-categories__title title">Популярные категории</div>
+      <div class="popular-categories__inner">
+        <a href="#" class="popular-categories__item popular-categories__item--first"
+          style="background-image: url(img/line1.jpg)">
+          <div class="popular-categories__item-title">Люстры</div>
+        </a>
+        <div class="popular-categories__items">
+          <a href="#" class="popular-categories__item" style="background-image: url(img/line2.jpg)">
+            <div class="popular-categories__item-title">Настенные, бра</div>
+          </a>
+          <a href="#" class="popular-categories__item" style="background-image: url(img/line3.jpg)">
+            <div class="popular-categories__item-title">
+              Настольные, торшеры
+            </div>
+          </a>
+          <a href="#" class="popular-categories__item" style="background-image: url(img/line4.jpg)">
+            <div class="popular-categories__item-title">Потолочные</div>
+          </a>
+        </div>
+        <a href="#" class="popular-categories__item popular-categories__item--last"
+          style="background-image: url(img/line5.jpg)">
+          <div class="popular-categories__item-title">Подвесные</div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section__inner">
+        <div class="section__item section__new-items">
+          <div class="section__item-title title">Новинки</div>
+          <div class="section__item-wrappper">
+            <a href="#" class="section__line new led">
+              <div class="section__line-wrapper">
+                <div class="item-status__wrapper">
+                  <div class="item-status item-status__new">NEW</div>
+                  <div class="item-status item-status__led">LED</div>
+                </div>
+                <div class="section__line-img">
+                  <img src="img/product.jpg" />
+                </div>
+                <div class="section__line-title">
+                  Настенный светильник хрустальный Traditional TR5091
+                </div>
+                <div class="section__line-pricebox">
+                  <div class="section__line-price">3 756 ₽</div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="section__line new">
+              <div class="section__line-wrapper">
+                <div class="item-status__wrapper">
+                  <div class="item-status item-status__new">NEW</div>
+                  <div class="item-status item-status__led">LED</div>
+                </div>
+                <div class="section__line-img">
+                  <img src="img/product.jpg" />
+                </div>
+                <div class="section__line-title">
+                  Настенный светильник хрустальный Traditional TR5091
+                </div>
+                <div class="section__line-pricebox">
+                  <div class="section__line-price">3 756 ₽</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="section__item section__sale-items">
+          <div class="section__item-title title">Распродажи</div>
+          <div class="section__item-wrappper">
+            <a href="#" class="section__line new led">
+              <div class="section__line-wrapper">
+                <div class="item-status__wrapper">
+                  <div class="item-status item-status__new">NEW</div>
+                  <div class="item-status item-status__led">LED</div>
+                </div>
+                <div class="section__line-img">
+                  <img src="img/product.jpg" />
+                </div>
+                <div class="sale-icon">-50%</div>
+                <div class="section__line-title">
+                  Настенный светильник хрустальный Traditional TR5091
+                </div>
+                <div class="section__line-pricebox">
+                  <div class="section__line-price">3 756 ₽</div>
+                  <div class="section__line-oldprice">3 756 ₽</div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="section__line new led">
+              <div class="section__line-wrapper">
+                <div class="item-status__wrapper">
+                  <div class="item-status item-status__new">NEW</div>
+                  <div class="item-status item-status__led">LED</div>
+                </div>
+                <div class="section__line-img">
+                  <img src="img/product.jpg" />
+                </div>
+                <div class="sale-icon">-50%</div>
+                <div class="section__line-title">
+                  Настенный светильник хрустальный Traditional TR5091
+                </div>
+                <div class="section__line-pricebox">
+                  <div class="section__line-price">3 756 ₽</div>
+                  <div class="section__line-oldprice">3 756 ₽</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- <section class="advantages">
+    <div class="container">
+      <div class="advantages__inner">
+        <div class="advantages__item advantages-howToBuy" style="background-image: url(img/line4.jpg)">
+          <div class="advantages__item-title">КАК КУПИТЬ?</div>
+          <div class="advantages-howToBuy__line">
+            <span class="advantages-howToBuy__line-num">1</span>
+            <div class="advantages-howToBuy__line-text">
+              Вы выбираете светильник или мы помогаем вам выбрать
+            </div>
+          </div>
+          <div class="advantages-howToBuy__line">
+            <span class="advantages-howToBuy__line-num">2</span>
+            <div class="advantages-howToBuy__line-text">
+              Выбираете способ оплаты и оформляете заказ
+            </div>
+          </div>
+          <div class="advantages-howToBuy__line">
+            <span class="advantages-howToBuy__line-num">3</span>
+            <div class="advantages-howToBuy__line-text">
+              Мы подтверждаем ваш заказ и комплектуем его
+            </div>
+          </div>
+          <div class="advantages-howToBuy__line">
+            <span class="advantages-howToBuy__line-num">4</span>
+            <div class="advantages-howToBuy__line-text">
+              Доставляем заказ вам!
+            </div>
+          </div>
+        </div>
+        <div class="advantages__item advantages-delivery" style="background-image: url(img/item2.jpg)">
+          <div class="advantages__item-title">ДОСТАВКА</div>
+          <div class="advantages-delivery__text">
+            С нашей помощью купить светильники в Москве и любом другом городе
+            РФ становится легко, выгодно и удобно.
+            <span>Люстрон заботится о своих покупателях и предлагает лучшие
+              условия сотрудничества.</span>
+          </div>
+        </div>
+        <div class="advantages__item advantages-sale" style="background-image: url(img/line2.jpg)">
+          <div class="advantages__item-title">РАСПРОДАЖИ</div>
+          <ul class="advantages-sale__list">
+            <li class="advantages-sale__line"><a href="#">Светильники</a></li>
+            <li class="advantages-sale__line"><a href="#">Люстры</a></li>
+            <li class="advantages-sale__line"><a href="#">Бра</a></li>
+            <li class="advantages-sale__line">
+              <a href="#">Настольные лампы</a>
+            </li>
+            <li class="advantages-sale__line"><a href="#">Торшеры</a></li>
+            <li class="advantages-sale__line"><a href="#">Потолочные</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="benefits">
+    <div class="container">
+      <div class="benefits__inner">
+        <div class="benefits__item">
+          <div class="benefits__item-title">Гарантия лучшей цены</div>
+          <div class="benefits__item-text">
+            У нас выгоднее всего! Покажите, где можно купить конкретный товар
+            дешевле, и мы сделаем вам еще более выгодное предложение.
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-title">Оплачивайте, как удобно вам</div>
+          <div class="benefits__item-text">
+            Безналичный расчет, электронными деньгами, наличными или картой
+            при курьерской доставке.
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-title">
+            Простая система возврата и обмена
+          </div>
+          <div class="benefits__item-text">
+            <span>21 день</span> на возврат товара Заберем сами, быстро вернем
+            деньги на карту, счет или наличными
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-title">2 года гарантии</div>
+          <div class="benefits__item-text">
+            Расширенная гарантия на все модели светильников.
+            <span>В течение 2 лет</span> можно обратиться к нам в случае
+            поломки прибора.
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-title">Установка в день доставки</div>
+          <div class="benefits__item-text">
+            Для всех, кому не терпится повесить новую люстру и узнать как она
+            будет смотреться в вашем интерьере.
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-title">Шоу-рум у вас дома</div>
+          <div class="benefits__item-text">
+            Привезем, чтобы вы могли «пощупать» и посмотреть. Если ничего не
+            подойдет, оплачивается только доставка – <span>500 рублей.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="articles">
+    <div class="container">
+      <div class="articles__inner">
+        <div class="articles__side">
+          <div class="articles__side-top">
+            <div class="articles__side-title">Новости</div>
+            <a href="#" class="articles__side-title-link">Все новости</a>
+          </div>
+          <div class="articles__side-items">
+            <div class="articles__side-item articles-item">
+              <a href="#" class="articles-item__img">
+                <img src="img/line2.jpg" />
+              </a>
+              <div class="articles-item__date">01.03.2021</div>
+              <a href="#" class="articles-item__title">Акция: Люстрон & Lightstar!</a>
+            </div>
+            <div class="articles__side-item articles-item">
+              <a href="#" class="articles-item__img">
+                <img src="img/line2.jpg" />
+              </a>
+              <div class="articles-item__date">01.03.2021</div>
+              <a href="#" class="articles-item__title">Акция: Люстрон & Lightstar!</a>
+            </div>
+            <div class="articles__side-item articles-item">
+              <a href="#" class="articles-item__img">
+                <img src="img/line2.jpg" />
+              </a>
+              <div class="articles-item__date">01.03.2021</div>
+              <a href="#" class="articles-item__title">Акция: Люстрон & Lightstar!</a>
+            </div>
+          </div>
+        </div>
+        <div class="articles__side">
+          <div class="articles__side-top">
+            <div class="articles__side-title">Статьи и обзоры</div>
+            <a href="#" class="articles__side-title-link">Все статьи</a>
+          </div>
+          <div class="articles__side-items">
+            <div class="articles__side-item articles-item">
+              <a href="#" class="articles-item__img">
+                <img src="img/line2.jpg" />
+              </a>
+              <div class="articles-item__date">01.03.2021</div>
+              <a href="#" class="articles-item__title">Выбираем обои в гостиную: 7 интересных идей</a>
+            </div>
+            <div class="articles__side-item articles-item">
+              <a href="#" class="articles-item__img">
+                <img src="img/line2.jpg" />
+              </a>
+              <div class="articles-item__date">01.03.2021</div>
+              <a href="#" class="articles-item__title">Акция: Люстрон & Lightstar!</a>
+            </div>
+            <div class="articles__side-item articles-item">
+              <a href="#" class="articles-item__img">
+                <img src="img/line2.jpg" />
+              </a>
+              <div class="articles-item__date">01.03.2021</div>
+              <a href="#" class="articles-item__title">Акция: Люстрон & Lightstar!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about-us">
+          <div class="about-us__item">
+            <div class="about-us__item-title">
+              Интернет магазин светильников Люстрон
+            </div>
+            <div class="about-us__item-text">
+              Добро пожаловать на ясный огонек шикарных светильников и
+              изысканных люстр! Интернет магазин Люстрон приглашает
+              посетителей окунуться в мир волшебного света в превосходном
+              обрамлении! Сегодня просторы интернета пестрят сотнями и
+              тысячами самых разнообразных интернет магазинов, предлагающих в
+              целом те же услуги, что и мы. Однако мало кто из отечественных
+              компаний может похвастать многолетней и успешной историей.
+              <span>Наша компания на российском рынке вот уже более 9 лет</span>
+              и успешно развивается, предлагая своим клиентам все больше
+              удобства и выгоды
+            </div>
+          </div>
+          <div class="about-us__item">
+            <div class="about-us__item-title">Предлагаем</div>
+            <div class="about-us__item-text">
+              Именно те светильники, которые станут лучшим дополнением к
+              интерьеру дома, квартиры, комнаты. Продажа качественных
+              осветительных приборов – наша основная задача. У нас вы найдете
+              изысканные модели для гостиной, спокойные – для спальни,
+              оригинальные – для детской, необычные – для кухни, ванной и
+              других помещений
+            </div>
+          </div>
+        </div>
+        <div class="questions">
+          <div class="questions__title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</div>
+          <a href="#" class="questions__line">
+            Какие сроки доставки? Какими транспортными компаниями вы
+            отправляете заказы? Как оплатить заказ?
+          </a>
+          <a href="#" class="questions__line">
+            Могу ли я вернуть или обменять товар, если он не подошел?
+          </a>
+          <a href="#" class="questions__line">
+            Мне нужен светильник с конкретными параметрами. Как мне его найти?
+          </a>
+          <a href="#" class="questions__btn">Все вопросы</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="premises">
+    <div class="container">
+      <div class="title">Подберите по типу помещения</div>
+      <div class="premises__slider">
+        <a href="#" class="premises__item" style="background-image: url(img/line5.jpg)">
+          <div class="premises__item-text">Детская</div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="interior-style">
+    <div class="container">
+      <div class="title">Подберите под стиль вашего интерьера</div>
+      <div class="interior-style__slider">
+        <a href="#" class="interior-style__item" style="background-image: url(img/line5.jpg)">
+          <div class="interior-style__item-text">Классический</div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="brands">
+    <div class="container">
+      <div class="title">Бренды</div>
+      <div class="brands__slider">
+        <a href="#" class="brands__item">
+          <img src="img/line2.jpg">
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__content-wrapper">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__contacts">
+              <div class="footer__contacts-title">Подпишитесь на нашу рассылку!</div>
+              <div class="footer__contacts-form">
+                <input type="text" placeholder="Введите E-mail"><button>Подписться</button>
+              </div>
+              <div class="contacts">
+                <a href="tel:84956498316" class="contacts-phone footer-phone">8 (495) 649-83-16<span> — Москва и
+                    МО</span></a>
+                <a href="tel:84956498316" class="contacts-phone footer-phone">8 (800) 500-22-97 <span> — Бесплатно по
+                    России</span>
+                </a>
+              </div>
+              <div class="footer__contacts-address">г. Москва, Лихоборская набережная, 14 Работаем: Пн-Вс: 08:00-22:00
+              </div>
+              <div class="footer__contacts-copy">2012 — 2021г. «Интернет-магазин» Люстрон» ©</div>
+            </div>
+            <div class="footer__items">
+              <div class="footer__item">
+                <div class="footer__item-title">Каталог товаров</div>
+                <ul class="footer__item-list">
+                  <li class="footer__item-line"><a href="#">Люстры</a></li>
+                  <li class="footer__item-line"><a href="#">Уличные светильники</a></li>
+                  <li class="footer__item-line"><a href="#">Бра</a></li>
+                  <li class="footer__item-line"><a href="#">Настольные лампы</a></li>
+                  <li class="footer__item-line"><a href="#">Торшеры</a></li>
+                  <li class="footer__item-line"><a href="#">Потолочные светильники</a></li>
+                  <li class="footer__item-line"><a href="#">Встраиваемые светильники</a></li>
+                  <li class="footer__item-line"><a href="#">Аксессуары</a></li>
+                  <li class="footer__item-line"><a href="#">Декор</a></li>
+                  <li class="footer__item-line"><a href="#">Распродажа</a></li>
+                </ul>
+              </div>
+              <div class="footer__item">
+                <div class="footer__item-title">Помощь покупателю</div>
+                <ul class="footer__item-list">
+                  <li class="footer__item-line"><a href="#">Главная</a></li>
+                  <li class="footer__item-line"><a href="#">Оплата и доставка</a></li>
+                  <li class="footer__item-line"><a href="#">Акции</a></li>
+                  <li class="footer__item-line"><a href="#">FAQ</a></li>
+                  <li class="footer__item-line"><a href="#">Гарантия</a></li>
+                  <li class="footer__item-line"><a href="#">Установка</a></li>
+                </ul>
+              </div>
+              <div class="footer__item">
+                <div class="footer__item-title">Информация</div>
+                <ul class="footer__item-list">
+                  <li class="footer__item-line"><a href="#">О компании</a></li>
+                  <li class="footer__item-line"><a href="#">Контакты</a></li>
+                  <li class="footer__item-line"><a href="#">Опт</a></li>
+                  <li class="footer__item-line"><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-wrapper">
+        <div class="container">
+          <div class="footer-bottom">
+            <div class="footer-bottom__item">
+              <div class="footer-bottom__item-title">Социальные сети:</div>
+              <ul class="footer-bottom__item-list">
+                <li class="footer-bottom__item-line"><a class="icon-twitter" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-instagram" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-vk" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-facebook" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-youtube" href="#"></a></li>
+              </ul>
+            </div>
+            <div class="footer-bottom__item">
+              <div class="footer-bottom__item-title">Принимаем к оплате:</div>
+              <ul class="footer-bottom__item-list">
+                <li class="footer-bottom__item-line"><a class="icon-home" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-home" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-home" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-home" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-home" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-home" href="#"></a></li>
+                <li class="footer-bottom__item-line"><a class="icon-home" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
