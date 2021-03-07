@@ -728,6 +728,9 @@
 .articles__side{
   max-width: 540px;
   width: 100%;
+  & + .articles__side{
+    margin-left: 30px;
+  }
   a{
     color: $blue;
     font-weight: 700;
@@ -748,10 +751,12 @@
 .articles__side-items{
   display: flex;
   justify-content: space-between;
+  margin-left: -10px;
 }
 .articles__side-item{
   max-width: 160px;
   width: 100%;
+  margin-left: 10px;
 }
 .articles-item__img{
   margin-bottom: 15px;
@@ -783,6 +788,7 @@
 .questions{
   max-width: 385px;
   width: 100%;
+  margin-left: 30px;
 }
 .about-us__item + .about-us__item{
   margin-top: 30px;
@@ -813,7 +819,7 @@
     color: $blue;
   }
 }
-.questions__btn{
+.questions__btn a{
   padding: 15px 20px;
   background-color: $blue;
   border-radius: 30px;
@@ -965,9 +971,10 @@
 }
 .footer__items{
   display: flex;
+  margin-left: 30px;
 }
 .footer__item + .footer__item{
-  margin-left: 60px;
+  margin-left: 50px;
 }
 .footer__item-title{
   font-size: 17px;
