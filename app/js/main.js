@@ -8,12 +8,25 @@ const btnList = document.querySelector('.btn-list')
 const product = document.querySelector('.switch__product')
 const collection = document.querySelector('.switch__collection')
 const switchButton = document.querySelector('.product__content-switch')
+const catigoriesTitlesMore = document.querySelector('.catigories-titles__more')
+const catigoriesSupTitlesMore = document.querySelector('.catigories-supTitles__more')
 
-btnList.addEventListener('click', onCLickList)
-btnTile.addEventListener('click', onCLickTile)
-product.addEventListener('click', onClickProduct)
-collection.addEventListener('click', onClickCollection)
-switchButton.addEventListener('click', onClickSwithButton)
+if (btnList !== null) {
+  btnList.addEventListener('click', onCLickList)
+}
+if (btnTile !== null) {
+  btnTile.addEventListener('click', onCLickTile)
+}
+if (product !== null) {
+  product.addEventListener('click', onClickProduct)
+}
+if (collection !== null) {
+  collection.addEventListener('click', onClickCollection)
+}
+if (switchButton !== null) {
+  switchButton.addEventListener('click', onClickSwithButton)
+}
+
 checkboxValue.forEach(check)
 asideItemTitle.forEach(onTabClick)
 asideTabTitle.forEach(onTabClick)
@@ -62,3 +75,28 @@ function onClickCollection() {
 
 
 
+const tabsBtn = document.querySelectorAll('.tabs__nav-btn')
+const tabsItems = document.querySelectorAll('.tabs__item')
+
+tabsBtn.forEach(onTabClick)
+
+function onTabClick(item) {
+  item.addEventListener('click', function () {
+    let currentBtn = item
+    let tabId = currentBtn.getAttribute("data-tab")
+    let currentTab = document.querySelector(tabId)
+    if( ! currentBtn.classList.contains('active') ){
+      tabsBtn.forEach(function(item){
+        item.classList.remove('active')
+      })
+      tabsItems.forEach(function(item){
+        item.classList.remove('active');
+      })
+  
+      currentBtn.classList.add('active')
+      currentTab.classList.add('active')
+    }
+  })
+}
+
+document.querySelector('.tabs__nav-btn').click();
